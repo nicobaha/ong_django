@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h2>Hola soy un h2 bien fachero </h2>
+
+    <div class="row">
+        <form method="post" action="procesar.php" id="formulario">
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" class="form-control" id="nombre" name="nombre">
+            </div>
+            <div class="form-group">
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" class="form-control" id="email" name="email">
+            </div>
+            <input type="submit" class="btn btn-danger" id="enviar" value="Enviar">
+            <input type="reset" class="btn btn-primary" id="limpiar" value="Limpiar">
+            <div id="error" class="alert alert-danger" role="alert"></div>
+        </form>
+    </div>
+    
+   
