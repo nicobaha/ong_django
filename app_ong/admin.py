@@ -1,3 +1,6 @@
 from django.contrib import admin
+from .models import Mascota, Adoptante, Adopcion
 
-# Register your models here.
+admin.site.register(Mascota)
+admin.site.register(Adoptante)
+admin.site.register(Adopcion)
